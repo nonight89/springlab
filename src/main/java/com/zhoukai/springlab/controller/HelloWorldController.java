@@ -13,4 +13,16 @@ public class HelloWorldController {
         model.addAttribute("message", "hello world!");
         return "helloWorld";
     }
+    
+    @RequestMapping("/print1")
+    public String helloworld1(Model model){
+        model.addAttribute("message", "hello world!");
+        return "helloWorld";
+    }
+    
+    @RequestMapping("/print2")
+    public String helloworld2(Model model){
+        model.addAttribute("message", "hello world!");
+        return "helloWorld";
+    }
 }
