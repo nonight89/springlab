@@ -25,4 +25,6 @@ public class HelloWorldController {
         model.addAttribute("message", "hello world!");
         return "helloWorld";
     }
+    
+    //TEST
 }
